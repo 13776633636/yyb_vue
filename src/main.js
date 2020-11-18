@@ -6,12 +6,22 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'font-awesome/css/font-awesome.css'
 
+
 import {postRequest} from "./utils/api";
 import {putRequest} from "./utils/api";
 import {getRequest} from "./utils/api";
 import {deleteRequest} from "./utils/api";
 import {initMenu} from "./utils/menus";
 import {downloadRequest} from "./utils/download";
+
+/**
+ *一下代码为自己添加
+ */
+
+
+
+
+
 
 Vue.config.productionTip = false
 Vue.use(ElementUI, {size: 'small'});
